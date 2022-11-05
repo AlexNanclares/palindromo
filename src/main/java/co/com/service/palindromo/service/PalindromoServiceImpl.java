@@ -57,7 +57,7 @@ public class PalindromoServiceImpl implements PalindromoService{
             }
         }
 
-        mayorPalindromo.setResultado(palindromo.length() > 1 ? palindromo : null);
+        mayorPalindromo.setResultado(palindromo);
 
         return mayorPalindromo;
     }
