@@ -1,0 +1,8 @@
+server:
+  servlet:
+    context-path: /services/api/v1
+  port: 8080
+Spring:
+  application:
+    name: palindromo-app
+
